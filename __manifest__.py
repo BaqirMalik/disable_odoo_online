@@ -8,10 +8,11 @@
     "website": "https://github.com/OCA/server-brand",
     "license": "AGPL-3",
     "category": "Hidden",
-    "depends": ["mail"],
+    "depends": ["web","mail"],
     "data": ["views/ir_ui_menu.xml"],
     "assets": {
         "web.assets_backend": [
+            "disable_odoo_online/static/src/js/web_client.js",
             "disable_odoo_online/static/src/js/user_menu_items.esm.js"
         ],
     },
